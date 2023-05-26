@@ -126,4 +126,5 @@ $ git push origin master
 
 
 The script was executed
-![123](/4.jpg)
+
+![4](https://github.com/Alinoos/lab-04/assets/126507425/25fc0671-6069-409f-8b86-c34981bba5da)
