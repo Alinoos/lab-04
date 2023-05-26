@@ -126,4 +126,4 @@ $ git push origin master
 
 
 The script was executed
-![Снимок экрана от 2023-03-19 13-07-10](https://user-images.githubusercontent.com/125737299/226169029-e6fe7071-ce9c-4336-8ece-48884db76cfb.png)
+![123](/4.jpg)
