@@ -6,7 +6,7 @@
 
 Используйте GitHub Actions для сборки на операционной системе Linux с использованием компиляторов gcc и clang
 
-Clone the Remote repository from the previous LR to the current one
+Копируем репозиторий из предыдущей ЛР:
 
 ```
 $ git clone https://github.com/ledibonibell/lab-03 lab-04
@@ -14,8 +14,6 @@ $ cd ~/lab-04
 $ git remote remove origin
 $ git remote add origin https://github.com/ledibonibell/lab-04.git
 ```
-![Снимок экрана от 2023-03-19 11-45-56](https://user-images.githubusercontent.com/125737299/226168945-d269c627-e590-4d2b-97ca-58e4046cf4a5.png)
-
 
 And we make the folder `~/lab-04/.github/workflows`
 ```
@@ -24,7 +22,6 @@ $ cd ~/lab-04/.github
 $ mkdir workflows
 $ cd ~/lab-04/.github/workflows
 ```
-![Снимок экрана от 2023-03-19 11-47-55](https://user-images.githubusercontent.com/125737299/226168959-1f395faa-d6c6-4e5d-8acb-de0c122ceaeb.png)
 
 ```
 $ cat >> Linux.yml << EOF
@@ -69,10 +66,8 @@ $ git add Linux.yml
 $ git commit -m "Linux.yml - 1"
 $ git push origin master
 ```
-![Снимок экрана от 2023-03-19 12-53-41](https://user-images.githubusercontent.com/125737299/226168997-4253e284-d152-4166-a08b-50fb8544141f.png)
 
-
-The script was executed
+Сценарий выполнился! (Скриншот в конце)
 
 # Task 2
 
@@ -83,7 +78,6 @@ $ cat >> Windows.yml << EOF
 > EOF
 $ nano Windows.yml
 ```
-
 
 Содержимое файла Windows.yml:
 
@@ -122,9 +116,7 @@ $ git add Windows.yml
 $ git commit -m "Windows.yml - 1"
 $ git push origin master
 ```
-![Снимок экрана от 2023-03-19 13-06-35](https://user-images.githubusercontent.com/125737299/226169021-d6f8e74d-6d17-4cfd-b0c5-2665d3b60524.png)
 
-
-The script was executed
+Сценнарий выполнился!
 
 ![4](https://github.com/Alinoos/lab-04/assets/126507425/25fc0671-6069-409f-8b86-c34981bba5da)
