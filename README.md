@@ -15,7 +15,7 @@ $ git remote remove origin
 $ git remote add origin https://github.com/ledibonibell/lab-04.git
 ```
 
-And we make the folder `~/lab-04/.github/workflows`
+И создаем папку со следующим путем: `~/lab-04/.github/workflows`
 ```
 $ mkdir .github
 $ cd ~/lab-04/.github
