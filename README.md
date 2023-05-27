@@ -9,10 +9,10 @@
 Копируем репозиторий из предыдущей ЛР:
 
 ```
-$ git clone https://github.com/ledibonibell/lab-03 lab-04
+$ git clone https://github.com/alinoos/lab-03 lab-04
 $ cd ~/lab-04
 $ git remote remove origin
-$ git remote add origin https://github.com/ledibonibell/lab-04.git
+$ git remote add origin https://github.com/alinoos/lab-04.git
 ```
 
 И создаем папку со следующим путем: `~/lab-04/.github/workflows`
